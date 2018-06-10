@@ -8,5 +8,6 @@ class EmailParser
 
   def parse(string)
   EMAILS << string.split(/[,\s]/)
+  EMAILS
   end
 end
