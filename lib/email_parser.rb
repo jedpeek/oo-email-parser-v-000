@@ -13,6 +13,6 @@ class EmailParser
   def parse
   email = []
   email << @string.split(/,?\s/) if
-  email.flatten.reduce
+  email.flatten
   end
 end
