@@ -11,7 +11,8 @@ class EmailParser
   end
 
   def parse
-  EMAILS << @string.split(", ")
-  EMAILS
+    email = []
+  email << @string.split(", ")
+  email
   end
 end
