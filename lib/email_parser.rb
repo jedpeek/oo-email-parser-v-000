@@ -7,6 +7,5 @@ class EmailParser
   EMAILS = []
 
   def parse(string)
-  EMAILS << string.split(/[,]\s/)
-  EMAILS
+  string.split(/[,]/)
 end
