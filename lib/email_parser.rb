@@ -10,8 +10,8 @@ class EmailParser
     @string = string
   end
 
-  def parse(string)
-  EMAILS << string.split(/[,\s]/)
+  def parse
+  EMAILS << self.split(/[,\s]/)
   EMAILS
   end
 end
