@@ -12,7 +12,7 @@ class EmailParser
 
   def parse
   email = []
-  email << @string.split(/,?\s/) if
+  email << @string.split(/,?\s/)
   email.flatten.uniq
   end
 end
