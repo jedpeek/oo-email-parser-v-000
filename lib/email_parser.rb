@@ -13,6 +13,6 @@ class EmailParser
   def parse
   email = []
   email << @string.split(", ")
-  email
+  email.flatten
   end
 end
